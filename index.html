@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visão Alternativa</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <link href="src/style/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header class="cabecalho-container">
+
+        <nav class="center">
+            <div class="logo">
+                <a href="#">
+                    <h2>Visão Alternativa</h2>
+                    <h2 lang="en" class="h2-news">NEWS</h2>
+                </a>
+
+            </div>
+
+            <div class="menu">
+                <a href="#sobre">Sobre</a>
+                <a href="#outras-noticias">Outras Notícias</a>
+                <a href="#destaque">Destaques</a>
+                <a href="#form">Contato</a>
+                <a class="btn-menu" href="#modal">Newsletter</a>
+            </div>
+
+            <div class="menu-mobile">
+                <i class="fa-solid fa-bars menu-mobile-icon"></i>
+                <div class="menu-itens">
+                    <a href="#sobre">Sobre</a>
+                    <a href="#outras-noticias">Outras Notícias</a>
+                    <a href="#destaque">Destaques</a>
+                    <a href="#form">Contato</a>
+                    <a class="btn-menu" href="#modal">Newsletter</a>
+                </div>
+            </div>
+
+            <div class="barra-pesquisa">
+                <label id="searchLabel" for="search-text">Buscar notícias:</label>
+                <input id="search-text" type="text" class="news-input" placeholder="Buscar">
+                <button id="search-button" class="search-button"><i class="fa-solid fa-magnifying-glass"></i>
+                    Pesquisar</button>
+            </div>
+
+            <!-- Modal Newsletter -->
+            <div id="modal" class="modal">
+                <div class="modal-content">
+                    <span class="close-modal" aria-label="Fechar" role="button">&times;</span>
+                    <h2>Assine nossa Newsletter</h2>
+                    <p>Inscreva-se para receber as últimas notícias e atualizações diretamente na sua caixa de
+                        entrada.Mantenha-se informado sobre eventos, artigos e desenvolvimentos relevantes.</p>
+                    <div class="modal-body">
+                        <label for="email-modal">Digite seu endereço de email:</label>
+                        <input type="email" id="email-modal" name="email-modal" aria-describedby="email-error" required>
+                        <div id="email-error" class="error-message" role="alert"></div>
+                        <button id="submit-newsletter" class="submit-btn">Enviar</button>
+                    </div>
+                    <p id="modal-instructions">Ao assinar, você concorda em receber nossa newsletter. Seu endereço de
+                        email será mantido privado e seguro.</p>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="conteudo-principal">
+        <section class="main">
+            <div class="center">
+
+                <div class="main_cta">
+                    <h1>Notícias sem barreiras</h1>
+                    <h2>Navegando com acessibilidade e inclusão</h2>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="noticias">
+            <div class="center">
+                <div class="noticias-wraper-1">
+                    <div class="noticia-destaque" id="destaque">
+                        <h3>Notícia Destaque</h3>
+                        <div class="noticia-destaque-single">
+                            <div class="card-header">
+                                <img src="https://uploads.jovemnerd.com.br/wp-content/uploads/2023/11/jogospcdcapa__79p17xz1.jpg" alt="" id="news-img">
+                            </div>
+                            <div class="card-content">
+                                <h3 id="news-title">MICROSOFT PROÍBE ACESSÓRIOS NÃO LICENCIADOS NO XBOX E PREJUDICA PCDS</h3>
+                                <h4 class="news-source" id="news-source">11 de novembro de 2023</h4>
+                                <p class="news-desc" id="news-desc">Entenda o que são essas ferramentas e suas funcionalidades The post Microsoft proíbe acessórios não licenciados no Xbox e prejudica PcDs appeared first on Jovem Nerd.</p>
+                            </div>
+                        </div>
+                    </div><!--noticia-destaque-->
+
+                    <div class="outras-noticias-1">
+                        <h3>Notícia Destaque</h3>
+                        <div class="outra-noticia-1-single">
+                            <div class="card">
+                                <div class="card-header">
+                                    <img src="https://assets.papelpop.com/wp-content/uploads/2023/10/thalita-reboucas-fala-sobre-tudo-por-um-popstar-2.jpg" alt="" id="news-img">
+                                </div>
+                                <div class="card-content">
+                                    <h3 id="news-title">THALITA REBOUÇAS DETALHA “TUDO POR UM POPSTAR 2” E REVELA LIVRO COM PERSONAGEM PCD</h3>
+                                    <h4 class="news-source" id="news-source">30 de outubro de 2023</h4>
+                                    <p class="news-desc" id="news-desc">Se você nasceu entre a década de 1990 e 2000 ou é um fã da literatura brasileira, leva um pedacinho de Thalita Rebouças em seu coração. A escritora é um sucesso entre o público adolescente, principalmente, quando se trata de livros, histórias e filmes. Depois…</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div><!--outras-noticias-1-->
+
+                </div><!--noticias-wrapper-1-->
+
+            </div><!--center-->
+
+        </section>
+
+        <section class="noticias" id="outras-noticias">
+            <h3>Outras notícias</h3>
+            <div class="center">
+                <div class="tema-noticias">
+                    <div class="noticia">
+                        <h2>Política</h2>
+                        <img src="src/images/politica-imagem-1.jpeg"
+                            alt="Banner do Governo Federal sobre o dia nacional de luta das pessoas com deficiência.">
+                        <h3>Governo anuncia novas políticas de inclusão para PCDs em todo o brasil</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem et risus
+                            hendrerit
+                            malesuada.</p>
+                        <button class="leia-mais-btn">Leia Mais</button>
+                    </div>
+                    <div class="noticia">
+                        <h2>Política</h2>
+                        <img src="src/images/politica-imagem-2.jpg"
+                            alt="Pessoa com deficiência visual utilizando piso tátil em uma calçada na rua.">
+                        <h3>Deputados aprovam lei de acessibilidade em espaços públicos</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem et risus hendrerit
+                            malesuada.</p>
+                        <button class="leia-mais-btn">Leia Mais</button>
+                    </div>
+
+                </div>
+                <div class="tema-noticias">
+                    <div class="noticia">
+                        <h2>Tecnologia</h2>
+                        <img src="src/images/tecnologia-imagem-1.jpg"
+                            alt="Homem com deficiência visual utilizando smartphone.">
+                        <h3>Empresa lança aplicativo para facilitar a vida de pessoas com deficiência visual</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem et risus hendrerit
+                            malesuada.</p>
+                        <button class="leia-mais-btn">Leia Mais</button>
+                    </div>
+                    <div class="noticia">
+                        <h2>Tecnologia</h2>
+                        <img src="src/images/tecnologia-imagem-2.jpg"
+                            alt="Mulher cadeirante em frente a computador no escritório de trabalho.">
+                        <h3>Inovações tecnológicas promovem inclusão no mercado de trabalho</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem et risus hendrerit
+                            malesuada.</p>
+                        <button class="leia-mais-btn">Leia Mais</button>
+                    </div>
+                </div>
+                <div class="tema-noticias">
+                    <div class="noticia">
+                        <h2>Cultura</h2>
+                        <img src="https://jornalistainclusivo.com/wp-content/uploads/2021/10/3o_Festival_Cine_Inclusao-Jornalista_Inclusivo.jpg"
+                            alt="Banner da terceira edição do Festival Cine Inclusão.">
+                        <h3>Festival de cinema inclusivo destaca produções protagonizadas por PCDs</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem et risus hendrerit
+                            malesuada.</p>
+                        <button class="leia-mais-btn">Leia Mais</button>
+                    </div>
+                    <div class="noticia">
+                        <h2>Cultura</h2>
+                        <img src="src/images/cultura-imagem-1.jpeg"
+                            alt="Mulher deficiente visual em frente a parede com quadros artísticos">
+                        <h3>Artistas com deficiência visual se destacam em exposição de arte apresentadas no brasil</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus nec sem et risus hendrerit
+                            malesuada.</p>
+                        <button class="leia-mais-btn">Leia Mais</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre" id="sobre">
+            <div class="center">
+                <div class="chamada-sobre">
+                    <h2>Sobre o Visão Alternativa</h2>
+                    <p>Bem-vindo ao Visão Alternativa, seu portal de notícias dedicado à missão de proporcionar uma
+                        visão
+                        mais inclusiva do mundo. Aqui, estamos comprometidos em trazer notícias relevantes, inspiradoras
+                        e
+                        informativas que destacam o universo das Pessoas com Deficiência (PCD).</p>
+                </div><!--chamada-sobre-->
+                <div class="conteudo-sobre">
+                    <p>No Visão Alternativa, acreditamos que a diversidade é nossa maior força e que a inclusão é
+                        fundamental para construir uma sociedade mais justa e igualitária. Nosso compromisso é oferecer
+                        um
+                        espaço onde as vozes das PCDs são ouvidas, respeitadas e celebradas.
+                        Mantemos você informado sobre os últimos acontecimentos e avanços no mundo das PCDs, desde
+                        questões
+                        de acessibilidade até inovações tecnológicas que estão transformando vidas.</p>
+                </div><!--conteudo-sobre-->
+            </div><!--center-->
+        </section><!--sobre-->
+
+        <section class="form" id="form">
+            <div class="form-contato">
+                <h2>Entre em contato conosco! Deixe sua mensagem abaixo:</h2>
+                <form action="https://api.staticforms.xyz/submit" method="post">
+                    <label for="nome">Nome:</label>
+                    <input id="nome" type="text" name="name" placeholder="Digite seu nome" autocomplete="off">
+                    <label for="email">Email:</label>
+                    <input id="email" type="email" name="email" placeholder="Digite seu email" autocomplete="off">
+                    <label for="mensagem">Mensagem</label>
+                    <textarea id="mensagem" name="message" cols="30" rows="10" placeholder="Digite sua mensagem"
+                        autocomplete="off"></textarea>
+                    <button type="submit">Enviar</button>
+
+                    <input type="hidden" name="accessKey" value="6d3a44ea-f854-4765-b600-2a3b27270ad7">
+                    <input type="hidden" name="redirectTo" value="http://127.0.0.1:5501/index.html">
+                </form>
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2023 - Todos os direitos reservados</p>
+        <p>Entre em contato pelo e-mail: visaoalternativa@news.com</p>
+        <nav>
+            <ul>
+                <li><a href="#">Termos de uso</a></li>
+                <li><a href="#">Política de privacidade</a></li>
+                <li><a href="#">Sobre nós</a></li>
+            </ul>
+        </nav>
+    </footer>
+
+    <script src="https://kit.fontawesome.com/69e83c2aab.js" crossorigin="anonymous"></script>
+    <script src="src/script.js"></script>
+
+</body>
+
+</html>
